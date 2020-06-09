@@ -22,18 +22,18 @@ const feature = {
 }
 
 const imgSrc = {
-    '염소' : '/added/starcapri.png',
-    '물병' : '/added/staraqua.png',
-    '물고기' : '/added/starpisces.png',
-    '양' : '/added/starsheep.png',
-    '황소' : '/added/starcow.png',
-    '쌍둥이' : '/added/stargem.png',
-    '게' : '/added/starcanc.png',
-    '사자' : '/added/starleo.png',
-    '처녀' : '/added/starvirgo.png',
-    '천칭' : '/added/starlibra.png',
-    '전갈' : '/added/starscol.png',
-    '사수' : '/added/starsagi.png',
+    '염소' : './added/starcapri.png',
+    '물병' : './added/staraqua.png',
+    '물고기' : './added/starpisces.png',
+    '양' : './added/starsheep.png',
+    '황소' : './added/starcow.png',
+    '쌍둥이' : './added/stargem.png',
+    '게' : './added/starcanc.png',
+    '사자' : './added/starleo.png',
+    '처녀' : './added/starvirgo.png',
+    '천칭' : './added/starlibra.png',
+    '전갈' : './added/starscol.png',
+    '사수' : './added/starsagi.png',
 }
 
 

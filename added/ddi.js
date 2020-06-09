@@ -7,18 +7,18 @@ const ddiPic=document.querySelector('#twimg')
 const ddiName=document.querySelector('#twname')
 const ddiContent=document.querySelector('#twcontent')
 const picture={
-    'mouse':'/added/mouse.png',
-    'cow':'/added/cow.png',
-    'tiger':'/added/tiger.png',
-    'rabbit':'/added/rabbit.png',
-    'dragon':'/added/dragon.png',
-    'snake':'/added/snake.png',
-    'horse':'/added/horse.png',
-    'sheep':'/added/sheep.png',
-    'monkey':'/added/monkey.png',
-    'pig':'/added/pig.png',
-    'chicken':'/added/chicken.png',
-    'dog':'/added/dog.png'
+    'mouse':'./added/mouse.png',
+    'cow':'./added/cow.png',
+    'tiger':'./added/tiger.png',
+    'rabbit':'./added/rabbit.png',
+    'dragon':'./added/dragon.png',
+    'snake':'./added/snake.png',
+    'horse':'./added/horse.png',
+    'sheep':'./added/sheep.png',
+    'monkey':'./added/monkey.png',
+    'pig':'./added/pig.png',
+    'chicken':'./added/chicken.png',
+    'dog':'./added/dog.png'
 } 
 const twfeature={
     'mouse':'쥐띠는 근면검소하고 자신보다 상대방을 더 배려하는 성품을 지녔어요. 외면적으로는 부드럽고 유연해 보이지만 일단 결심한 일은 집념있게 해결하며 바쁠수록 더 즐겁고 신나게 일하는 특성을 지녔어요.',
