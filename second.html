@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/added/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href="/added/StarStoneFlower.css">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Nanum+Gothic&family=Song+Myung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id='y' style='display:none;'></div>
+    <div id='m' style='display:none;'></div>
+    <div id='d' style='display:none;'></div>
+    <div id='layer'></div>
+    <h1></h1>
+
+        <div id="star">
+            <div id='starName'></div>
+            <hr class="colorline">
+            <img id ='starImg'>
+            <span id = 'starText'></span>            
+        </div>
+
+        <div id="stone">
+            <div id='stoneName'></div>
+            <hr class="colorline">
+            <img id ='stoneImg'>
+            <span id ='stoneText'></span> 
+        </div>
+        <div id="flower">
+            <div id='flowerName'></div>
+            <hr class="colorline">
+            <img id ='flowerImg'>
+            <span id ='flowerText'></span>
+            <span id="dayflower">일별 탄생화
+                <button onclick="
+                    window.open('https://scbay.suncheon.go.kr/garden/data/b_flower_and_b_tree_1-12.pdf','_blank')"
+                    >GO!!</button>
+            </span>
+        </div>
+        <div id="twelve">
+            <img id="twimg"></img>
+            <div id="twname"></div>
+            <hr class="colorline">
+            <div id="twcontent"></div>
+        </div>
+        <div id="color1">
+            <div id="colorbox"></div>
+        </div>
+        <div id="color2">
+            <div id="colorname"></div>
+            <hr class="colorline">
+            <div id="colorcontent"></div>
+        </div>
+    
+</body>
+<script src='/added/link.js'></script>
+<script src="/added/color.js"></script>
+<script src="/added/ddi.js"></script>
+<script src='/added/star.js'></script>
+<script src='/added/stone.js'></script>
+<script src="/added/flower.js"></script>
+
+</html>

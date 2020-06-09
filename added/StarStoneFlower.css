@@ -1,0 +1,88 @@
+#starName{
+    position: absolute;
+    top:10%;
+    left:5%;
+    font-size:150%;
+    font-family: 'Song Myung', serif;
+
+}
+#starImg{
+    position: absolute;
+    top : 30%;
+    left : 3%;
+    width:33%;
+    max-width:120px;
+    height:auto;
+}
+#starText{
+    position : absolute;
+    top : 15%;
+    left : 40%;
+    right : 5%;
+    font-family: 'Song Myung', serif;
+}
+
+
+#stoneName{
+    position: absolute;
+    top:8%;
+    left:5%;
+    font-size:150%;
+    font-family: 'Song Myung', serif;
+
+}
+#stoneImg{
+    position: absolute;
+    top : 35%;
+    left : 5%;
+    height: 75px;
+    width: 75px;
+}
+#stoneText{
+    position : absolute;
+    top : 33%;
+    left : 40%;
+    right : 5%;
+    font-family: 'Song Myung', serif;
+
+}
+
+
+
+
+
+
+
+
+#flowerName{
+    position: absolute;
+    top:9%;
+    left:5%;
+    font-size:150%;
+    font-family: 'Song Myung', serif;
+
+}
+#flowerImg{
+    position: absolute;
+    top : 35%;
+    left : 5%;
+    height: 75px;
+    width: 75px;
+}
+#flowerText{
+    position : absolute;
+    top : 35%;
+    left : 40%;
+    right : 5%;
+    font-family: 'Song Myung', serif;
+
+}
+#dayflower{
+    position: absolute;
+    top : 5%;
+    right : 2%;
+    font-family: 'Song Myung', serif;
+
+    font-size: smaller;
+}
+
