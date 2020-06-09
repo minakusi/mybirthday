@@ -1,0 +1,28 @@
+html{ font-family: 'Black Han Sans', sans-serif, bold;
+   
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: center top -300px;
+    background-color: lemonchiffon;
+    text-align: center;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo:wght@700&display=swap');
+
+@media(max-width: 1000px){
+    div{
+        display: none;
+    }
+}
+.name {
+    text-align: left;
+}
+.date {
+    text-align: center;
+}
+
+
+
+
+

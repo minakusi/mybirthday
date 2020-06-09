@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" href="./idea/style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>My Birthday</h1>
+    <h3> 상징을 알아보자! </h3>
+    <form>
+    <p>생년월일을 입력해주세요.</p>
+    <p>이름 : <input type="text" class="data" id="name" name="id">
+        생년월일 : <input type="date" class="data" id="date" name="bday" max="9999-12-31"></p> 
+    <input type="button" value="입력" class="btn" onclick="locate()">
+    </form>
+    <script>
+        const name = document.querySelector('#name');
+        const birth = document.querySelector('#date');
+        function locate(){
+            let url = `./added/second.html?${name.value}:${birth.value}`;
+            location.href=url;
+        }
+    </script>
+</form>
+</body>
+</html>
